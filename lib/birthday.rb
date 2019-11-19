@@ -12,11 +12,11 @@ def happy_birthday(birthday_kids)
 end
 
 def happy_birthday(birthday_kids)
-  birthday_kids.sort_by { |name, age| age }
-    birthday_kids.each do|k, a|
-      if a <= 12
-        puts "Happy Birthday #{k}! You are now #{a} years old!"
-      end
+  birthday_kids.sort_by{|name, age|age}
+  birthday_kids.each do|k, a|
+    if a <= 12
+      puts "Happy Birthday #{k}! You are now #{a} years old!"
     end
+  end
 end
 
