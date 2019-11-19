@@ -5,7 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
-  birthday_kids.each do|k, a|if a <= 12 do
+  birthday_kids.each do|k, a|
     puts "Happy Birthday #{k}! You are now #{a} years old!"
   end
   # add your code snippet here!
